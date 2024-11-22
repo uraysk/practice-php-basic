@@ -1,7 +1,7 @@
 <?php
 echo '<br/>';
 echo '<b>4-10</b><br/>';
-echo '課題１：';
+echo 'Sample：';
 
 $word1 = "hoge";
 
@@ -28,7 +28,7 @@ for ($i = 1; $i <= 6; $i++) {
 }
 
 echo '<br/>';
-echo '課題２：';
+echo '課題１：';
 
 $word = "fuga";
 
