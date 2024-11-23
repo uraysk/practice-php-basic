@@ -10,7 +10,7 @@ echo "課題１：";
 class HogeOrFuga{
   private string $word;
 
-  public function _construct(string $word){
+  public function __construct(string $word){
     $this->word = $word;
   }
 
