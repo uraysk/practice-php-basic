@@ -3,10 +3,10 @@ echo "<br/><b>4-13</b><br/>";
 
 //　if課題１
 class PriceOfFood{
-  private $food;
-  private $num1;
+  private string $food;
+  private int $num1;
 
-  public function __construct($food){
+  public function __construct(string $food){
     $this->food = $food;
     $this->num1 = 0;
   }
@@ -34,9 +34,9 @@ $calculate->calculation();
 
 //　if課題２
 class DescribeNumber{
-  private $num2;
+  private int $num2;
 
-  public function __construct($num2){
+  public function __construct(int $num2){
     $this->num2 = $num2;
   }
 
@@ -59,9 +59,9 @@ $discribe->descriptionOfNumber();
 echo "課題３：";
 
 class ForLoop1{
-  private $total1;
+  private int $total1;
 
-  public function __construct($total1){
+  public function __construct(int $total1){
     $this->total1 = 0;
   }
 
@@ -78,9 +78,9 @@ $resultOfLoop->displayResult();
 //for課題２
 echo '<br/>課題４：';
 class ForLoop2{
-  private $total2;
+  private int $total2;
 
-  public function __construct($total2){
+  public function __construct(int $total2){
     $this->total2 = 0;
   }
 
@@ -100,10 +100,10 @@ echo "<br/>";
 echo "課題５：";
 
 class ForPlusIf{
-  private $start;
-  private $stop;
+  private int $start;
+  private int $stop;
 
-  public function __construct($start,$end){
+  public function __construct(int $start, int $end){
     $this->start = $start;
     $this->end = $end;
   }
