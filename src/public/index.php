@@ -10,7 +10,7 @@ for($i=0; $i<5; $i++){
 
 echo '<br/>課題２：';
 $total = 0;
-for ($i = 0; $i < ($total = 105); $i++) {
-    $total += $i;
+for ($i = 0; $i < 21; $i++) {
+    $total += 5;
 }
 var_dump($total);
