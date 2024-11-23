@@ -8,9 +8,9 @@ echo "<b>4-14</b><br/>";
 //guard課題１
 echo "課題１：";
 class HogeOrFuga{
-  private $word;
+  private string $word;
 
-  public function _construct($word){
+  public function _construct(string $word){
     $this->word = $word;
   }
 
@@ -47,7 +47,7 @@ $result->whenWordIsFuga();
 echo "<br/>";
 echo "課題２：";
 class MaxNumber1{
-  private $arrayList;
+  private array $arrayList;
 
   public function __construct(array $arrayList){
     $this->arrayList = $arrayList;
@@ -77,7 +77,7 @@ echo "<br/>";
 echo "課題３：";
 
 class MaxNumDivisibleByThree{
-  private $arrayList;
+  private array $arrayList;
   
   public function __construct(array $arrayList){
     $this->arrayList = $arrayList;
@@ -112,8 +112,8 @@ $maxNumberDivByThree->showMaxNum();
 echo "<br/>課題４：";
 
 class ResultListOfExam{
-  private $examScoreList;
-  private $resultList;
+  private array $examScoreList;
+  private array $resultList;
 
   public function __construct(array $examScoreList, array $resultList){
     $this->examScoreList = $examScoreList;
@@ -152,10 +152,10 @@ echo "<br/>";
 echo "課題5：";
 
 class ResultListOfExam2{
-  private $examScoreLists;
-  private $examScoreList;
-  private $borderScore;
-  private $resultList;
+  private array $examScoreLists;
+  private array $examScoreList;
+  private array $borderScore;
+  private array $resultList;
 
   public function __construct(array $examScoreLists, array $examScoreList, array $borderScore, array $resultList){
     $this->examScoreLists = $examScoreLists;
